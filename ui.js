@@ -34,7 +34,7 @@ export function mount(spec, parts) {
       parts.stage.appendChild(row);
     });
     parts.legend.textContent = "较大值合计 " + view.total + "，最大较大值 " + view.biggest
-      + "（第 " + (view.biggest_at + 1) + " 项）";
+      + (view.biggest_at ? "（第 " + view.biggest_at + " 项）" : "（无项）");
     parts.log.textContent = "项数 " + view.count;
   }
 
