@@ -1,0 +1,5 @@
+{
+  "column_error_code": "E_BAD_COLUMN",
+  "left": [3, 8, 2, 10],
+  "right": [7, 5, 9, 1]
+}
